@@ -1,0 +1,68 @@
+body{
+	padding: 20px;
+	margin: 20px 60px ;
+	font-family:arial;
+	font-size:18px;
+	background: #DCE35B;  /* fallback for old browsers */
+  background: linear-gradient(to right, blue, skyblue);
+}
+.principal{
+	width: 95%;
+	height: 900px;
+	background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: 6px inset black;
+}
+.encabezado1{
+	width: 96%;
+	height: 100px;
+	float:center;
+	background-color: #13B3A0 ;
+	margin: 20px 20px 20px 20px
+	border:4px inset black;
+}
+.encabezado2{
+	width: 70%;
+	height: 100px;
+	color: #EEF3F2;
+	float:right;
+	background-color:#6AB2C3;
+	margin:20px 20px 20px 20px; 
+	border:4px inset  black;
+}
+.contenido{
+	width:96%;
+	height: 600px;
+	background: #6AB2C3;
+	margin: 20px 20px 20px 20px;
+	border: 4px inset  black;
+}
+.menu{
+	width: 20%;
+	height: 550px;
+	background: #6AB2C3;
+	margin: 20px 20px 20px 20px;
+	float:left;
+	border: 2px inset  black;
+	text-align: left;
+}
+.pagina{
+	width: 70%;
+	height: 400px;
+	float:right;
+	background-color: #4DCAA4;
+	margin:  20px 20px 20px 20px;
+	border:4px inset  black;
+	text-align: center;
+	color: #EEF3F2;
+}
+.piepagina{
+	width: 96%;
+	height: 100px;
+	margin: 20px 20px 20px 20px;
+	font-family: Arial,Time new Roman,Helvetica;
+	background-color: #6385C8;
+	border: 4px inset  black;
+	text-align: center;
+}
